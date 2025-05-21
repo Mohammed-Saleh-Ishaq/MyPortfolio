@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammed Saleh Ishaq | Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="container">
+            <a href="#" class="logo">Mohammed Saleh Ishaq</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+     <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hi, I'm <span class="highlight">Mohammed Saleh Ishaq</span></h1>
+                <h2>Software Engineer | Python Django Developer</h2>
+                <p>Developing robust web applications with Python and Django.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn">Get In Touch</a>
+                    <a href="#projects" class="btn btn-outline">See My Portfolio</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Software Engineer with a strong foundation in Python and Django, experienced in developing efficient and scalable backend solutions. Demonstrated ability to build RESTful APIs using FastAPI (including CRUD operations and Pydantic validation) and manage data effectively using Python libraries like Pandas.</p>
+                    <p>Eager to apply my skills and contribute to innovative projects in a challenging environment.</p>
+                    <div class="accomplishment">
+                        <i class="fas fa-trophy"></i>
+                        <span>Top 6.9% of Leetcoders | 50+ days of consistent problem solving in 2024</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fab fa-python"></i>
+                    <h3>Python & Django</h3>
+                    <p>Proficient in building web applications</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-database"></i>
+                    <h3>Databases</h3>
+                    <p>MySQL, MongoDB</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-html5"></i>
+                    <h3>Frontend</h3>
+                    <p>HTML, CSS, Bootstrap, JavaScript</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Other</h3>
+                    <p>FastAPI, REST APIs, Data Analysis</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/To do.jpg" alt="To-Do List App">
+                    </div>
+                    <div class="project-info">
+                        <h3>To-Do List Application</h3>
+                        <p>Personal Project</p>
+                        <ul class="project-details">
+                            <li>Engineered a sophisticated To-Do List application using Python and Django</li>
+                            <li>Utilized Class-Based Views (CBV) to optimize CRUD operations</li>
+                            <li>Achieved 40% reduction in development time and 25% performance boost</li>
+                            <li>Created user-friendly front-end with HTML, CSS, and Bootstrap</li>
+                            <li>The backend of the application is powered by Django, providing robust and scalable solutions for handling data and business logic</li>
+                        </ul>
+                        <p class="tech-used"><strong>Technologies:</strong> Python, Django, HTML, CSS, Bootstrap</p>
+                        <div class="project-links">
+                            <a href="https://github.com/Mohammed-Saleh-Ishaq/To-do" class="btn btn-outline" target="_blank">View on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/fastapi.png" alt="FastAPI Task Management API">
+                        </div>
+                    <div class="project-info">
+                        <h3>FastAPI Task Management API</h3>
+                        <p>Personal Project</p>
+                        <ul class="project-details">
+                            <li>Developed a RESTful API using FastAPI for managing tasks.</li>
+                            <li>Implemented CRUD (Create, Read, Update, Delete) operations on task resources.</li>
+                            <li>Utilized Pydantic for request and response data validation and serialization.</li>
+                            <li>Employed UUIDs for generating unique identifiers for each task.</li>
+                            <li>Implemented error handling using `HTTPException` to provide informative 404 Not Found responses for non-existent tasks.</li>
+                        </ul>
+                        <p class="tech-used"><strong>Technologies:</strong> Python, FastAPI, Pydantic, UUID</p>
+                        <div class="project-links">
+                            <a href="https://github.com/Mohammed-Saleh-Ishaq/PY-API" class="btn btn-outline" target="_blank">View on GitHub</a>
+                            </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/ethereum.jpg" alt="Solidity Smart Contract on Ethereum">
+                        </div>
+                    <div class="project-info">
+                        <h3>Solidity Smart Contract on Ethereum</h3>
+                        <p>Personal Project</p>
+                        <ul class="project-details">
+                            <li>Set up a local Ethereum development environment using Hardhat, documenting the configuration process.</li>
+                            <li>Configured MetaMask wallet and connected it to the Ethereum Sepolia test network for development and testing.</li>
+                            <li>Successfully obtained Sepolia ETH to fund contract deployment.</li>
+                            <li>Configured Hardhat for Solidity compilation and deployment, integrating environment variables for secure key management.</li>
+                            <li>Utilized the Alchemy API to establish a connection with the Ethereum network.</li>
+                            <li>Compiled and deployed a basic Solidity smart contract to the Sepolia test network.</li>
+                            <li>Retrieved the deployed smart contract address, laying the foundation for future interaction.</li>
+                        </ul>
+                        <p class="tech-used"><strong>Technologies:</strong> Solidity, Ethereum, Hardhat, MetaMask, Sepolia Testnet, Alchemy, JavaScript, npm, dotenv</p>
+                        <div class="project-links">
+                            <a href="https://github.com/Mohammed-Saleh-Ishaq/Solidity-Smart-Contract-on-Ethereum" class="btn btn-outline" target="_blank">View on GitHub</a>
+                            </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2017 - 2021</div>
+                    <div class="timeline-content">
+                        <h3>B.E in Computer Science</h3>
+                        <p>Shadan College of Engineering & Technology</p>
+                        <p>Hyderabad, India</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <section id="experience" class="experience">
+    <div class="container">
+        <h2 class="section-title">My Experience</h2>
+
+        <div class="experience-timeline">
+            <!-- Internship Timeline Item -->
+            <div class="timeline-item">
+                <div class="timeline-date">Feb – May 2025</div>
+                <div class="timeline-content">
+                    <h3>Python Intern – Industry-Academia Community Internship</h3>
+                    <p>Industry Academia Community Internship Program</p>
+                    <ul>
+                        <li>Cleaned and enriched a dataset of 5,000+ Indian recipes to extract key insights</li>
+                        <li>Performed data cleaning, transformation, and exploratory analysis using Python (Pandas)</li>
+                        <li>Built visual dashboards using Matplotlib & Seaborn</li>
+                        <li>Delivered final cleaned dataset and analytical report</li>
+                    </ul>
+                    <p><strong>Technologies:</strong> Python, Pandas, Matplotlib, Seaborn</p>
+                    
+                    <a href="https://github.com/Mohammed-Saleh-Ishaq/Analysis-of-Indian-Food-Cuisine-Dataset" class="btn btn-outline btn-sm" target="_blank" rel="noopener noreferrer">View Project</a>
+                </div>
+            </div>
+        
+        <div class="experience-timeline">
+            <div class="timeline-item">
+                <div class="timeline-date">Dec 2023</div>
+                <div class="timeline-content">
+                    <h3>JP Morgan Chase & Co. Job Simulation</h3>
+                    <p>Forage Virtual Experience</p>
+                    <ul>
+                        <li>Implemented an interface to interact with a stock price data feed</li>
+                        <li>Visually displayed data for traders</li>
+                        <li>Technologies: Python, React, TypeScript, HTML, JavaScript, CSS</li>
+                    </ul>
+
+                    <div class="project-showcase">
+                        <h4>Tasks Completed:</h4>
+                        <div class="project-item">
+                            <h5>Task 1: Interface with Stock Price Data Feed</h5>
+                            <p>Implemented a data feed handler to process and display real-time stock price data.</p>
+                            <a href="https://github.com/Mohammed-Saleh-Ishaq/forage-jpmc-swe-task-1" class="btn btn-outline btn-sm" target="_blank">View Task 1</a>
+                        </div>
+
+                        <div class="project-item">
+                            <h5>Task 2: Data Visualization</h5>
+                            <p>Created interactive charts and graphs to visualize stock price trends and patterns.</p>
+                            <a href="https://github.com/Mohammed-Saleh-Ishaq/forage-jpmc-swe-task-2" class="btn btn-outline btn-sm" target="_blank">View Task 2</a>
+                        </div>
+
+                        <div class="project-item">
+                            <h5>Task 3: Trader's Dashboard</h5>
+                            <p>Developed a comprehensive dashboard for traders to monitor and analyze market data.</p>
+                            <a href="https://github.com/Mohammed-Saleh-Ishaq/forage-jpmc-swe-task-3" class="btn btn-outline btn-sm" target="_blank">View Task 3</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <p>I'm currently looking for new opportunities. Whether you have a question or just want to say hi, I'll get back to you as soon as possible!</p>
+                
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:mohammedishaq0592@gmail.com">mohammedishaq0592@gmail.com</a>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Hyderabad 500028, India</span>
+                    </div>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/ishaq-engineer" target="_blank" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/Mohammed-Saleh-Ishaq" target="_blank" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://leetcode.com/u/mohammed-ishaq/" target="_blank" title="LeetCode">
+                        <i class="fas fa-code"></i>
+                    </a>
+                </div>
+
+                <a href="mailto:mohammedishaq0592@gmail.com" class="btn">
+                    <i class="fas fa-paper-plane"></i> Send Message
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="year"></span> Mohammed Saleh Ishaq. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+
+
