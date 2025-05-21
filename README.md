@@ -142,4 +142,8 @@ This project is open source and available under the [MIT License](LICENSE).
 
 > ⚠️ Disclaimer: You are free to reuse and customize this portfolio under the MIT License. However, **please do not use my name, username, or project links** in your version. Replace all personal identifiers with your own.
 
+## Acknowledgments
 
+- [GitHub Pages](https://pages.github.com/) for hosting
+
+---
