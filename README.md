@@ -127,3 +127,12 @@ To add a new project to your portfolio:
    - Project description
    - Update the "Live Demo" and "View Code" links
 
+
+## Browser Support
+
+This portfolio is built to work in all modern browsers, including:
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+
