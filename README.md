@@ -87,3 +87,31 @@ The portfolio uses CSS variables for easy theming. You can find these at the top
 }
 ```
 
+## Deployment to GitHub Pages
+
+1. Create a new repository on GitHub (name it `username.github.io` where username is your GitHub username).
+
+2. Initialize git in your project folder (if you haven't already):
+   ```bash
+   git init
+   git add .
+   git commit -m "Initial commit"
+   ```
+
+3. Add your GitHub repository as a remote:
+   ```bash
+   git remote add origin https://github.com/username/username.github.io.git
+   ```
+   (Replace `username` with your GitHub username)
+
+4. Push your code to GitHub:
+   ```bash
+   git push -u origin main
+   ```
+
+5. Go to your repository on GitHub, then go to Settings > Pages.
+
+6. Under "Source", select the `master` branch and click "Save".
+
+7. Your site will be live at `https://username.github.io` in a few minutes.
+
