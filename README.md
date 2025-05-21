@@ -30,6 +30,7 @@ A modern, responsive personal portfolio website built with HTML, CSS, and JavaSc
 - Git & GitHub
 - GitHub Pages
 
+---
 
 ## Getting Started
 
