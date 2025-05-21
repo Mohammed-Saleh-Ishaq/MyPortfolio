@@ -54,3 +54,18 @@ A modern, responsive personal portfolio website built with HTML, CSS, and JavaSc
 
 5. For additional functionality, modify the `js/script.js` file.
 
+
+## Customization
+
+### Personal Information
+
+1. Open `index.html` in a text editor.
+
+2. Replace the following placeholders with your information:
+   - "Your Name" - Your full name
+   - "Web Developer" - Your professional title
+   - Update the about section text
+   - Add/remove skills as needed
+   - Update project information
+   - Update contact information and social media links
+
