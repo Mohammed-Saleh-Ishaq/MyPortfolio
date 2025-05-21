@@ -28,7 +28,8 @@ A modern, responsive personal portfolio website built with HTML, CSS, and JavaSc
 - JavaScript 
 - Git & GitHub
 - GitHub Pages
-- 
+
+
 ## Getting Started
 
 ### Prerequisites
@@ -36,3 +37,20 @@ A modern, responsive personal portfolio website built with HTML, CSS, and JavaSc
 - A modern web browser (Chrome, Firefox, Safari, Edge)
 - Git (for deployment)
 - A GitHub account (for hosting on GitHub Pages)
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/your-portfolio.git
+   cd your-portfolio
+   ```
+
+2. Open the project in your favorite code editor.
+
+3. Customize the content in `index.html` with your personal information, skills, and projects.
+
+4. To customize the styling, edit the `css/style.css` file.
+
+5. For additional functionality, modify the `js/script.js` file.
+
