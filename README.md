@@ -115,3 +115,15 @@ The portfolio uses CSS variables for easy theming. You can find these at the top
 
 7. Your site will be live at `https://username.github.io` in a few minutes.
 
+
+## Adding Projects
+
+To add a new project to your portfolio:
+
+1. Copy one of the existing project cards in the projects section of `index.html`.
+2. Update the following:
+   - Project image (replace the placeholder URL)
+   - Project title
+   - Project description
+   - Update the "Live Demo" and "View Code" links
+
