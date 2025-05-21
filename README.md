@@ -56,6 +56,7 @@ A modern, responsive personal portfolio website built with HTML, CSS, and JavaSc
 
 5. For additional functionality, modify the `js/script.js` file.
 
+---
 
 ## Customization
 
