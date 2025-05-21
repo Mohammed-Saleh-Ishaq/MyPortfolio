@@ -69,3 +69,21 @@ A modern, responsive personal portfolio website built with HTML, CSS, and JavaSc
    - Update project information
    - Update contact information and social media links
 
+
+  ### Styling
+
+The portfolio uses CSS variables for easy theming. You can find these at the top of the `css/style.css` file:
+
+```css
+:root {
+    --primary-color: #2563eb;
+    --secondary-color: #1e40af;
+    --text-color: #1f2937;
+    --light-text: #6b7280;
+    --bg-color: #ffffff;
+    --light-bg: #f3f4f6;
+    --border-radius: 8px;
+    --transition: all 0.3s ease;
+}
+```
+
