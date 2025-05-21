@@ -139,6 +139,8 @@ This portfolio is built to work in all modern browsers, including:
 - Safari (latest)
 - Edge (latest)
 
+--- 
+
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
