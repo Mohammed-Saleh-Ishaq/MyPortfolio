@@ -147,3 +147,5 @@ This project is open source and available under the [MIT License](LICENSE).
 - [GitHub Pages](https://pages.github.com/) for hosting
 
 ---
+
+Feel free to customize this template to make it your own. Happy coding! 🚀
