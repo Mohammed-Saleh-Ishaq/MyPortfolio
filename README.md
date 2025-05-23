@@ -90,6 +90,7 @@ The portfolio uses CSS variables for easy theming. You can find these at the top
 }
 ```
 
+---
 ## Deployment to GitHub Pages
 
 1. Create a new repository on GitHub (name it `username.github.io` where username is your GitHub username).
